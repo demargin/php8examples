@@ -1,7 +1,7 @@
 <?php
 $header = include_once('header.php');
 $content = include_once('content.php');
-
+$footer = include_once('footer.php');
 
 $html = "<!doctype html>
 
@@ -18,9 +18,8 @@ $html = "<!doctype html>
 </head>
 
 <body>
-<p>efrerer</p>
+$header
+$content
+$footer
 </body>
 </html>";
-
-echo ($html);
-$footer = include_once('footer.php');
